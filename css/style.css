@@ -161,7 +161,8 @@ nav .container ul li a.active {
   padding: 4px;
   padding-left: 81px;
   font-size: 22px;
-  border-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
   width: 50px;
   height: 32px;
   display: flex;
@@ -502,4 +503,18 @@ footer .container form input:last-child:hover {
   color: white;
   background-color: black;
 }
+
 /* end footer */
+
+/* background-color: var(--secondery-color);
+    color: white;
+    padding: 4px;
+    padding-left: 81px;
+    font-size: 22px;
+    border-radius: 9px;
+    width: 50px;
+    height: 32px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: linear-gradient(to right, white -16%, #c03b2c 53%); */
