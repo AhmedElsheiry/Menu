@@ -183,18 +183,10 @@ nav .container ul li a.active {
   color: black;
   position: relative;
 }
-/* .all li span.active::before {
-  content: "sar";
-  position: absolute;
-  right: 34px;
-  font-weight: 600;
-  bottom: 3px;
-  font-size: 13px;
-} */
 .all li span.active img {
-  width: 33px;
+  width: 34px;
   position: absolute;
-  left: 49%;
+  left: 47%;
   top: -16px;
   transform: translateX(-50%);
 }
@@ -366,7 +358,7 @@ nav .container ul li a.active {
 #Jacuzzi-and-sauna .container .sauna {
   flex-basis: 45%;
 }
-#Jacuzzi-and-sauna .container .all p {
+#Jacuzzi-and-sauna .container .all li > p {
   font-weight: 700;
 }
 .sauna .all .test h5 {
@@ -389,7 +381,7 @@ nav .container ul li a.active {
 #nails {
   padding: 30px 0;
 }
-#nails p {
+#nails .test p {
   font-weight: 700;
 }
 .split {
@@ -510,18 +502,4 @@ footer .container form input:last-child:hover {
   color: white;
   background-color: black;
 }
-
 /* end footer */
-
-/* background-color: var(--secondery-color);
-    color: white;
-    padding: 4px;
-    padding-left: 81px;
-    font-size: 22px;
-    border-radius: 9px;
-    width: 50px;
-    height: 32px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    background-image: linear-gradient(to right, white -16%, #c03b2c 53%); */
