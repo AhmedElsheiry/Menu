@@ -267,7 +267,6 @@ nav .container ul li a.active {
     width: calc(100% + 10px);
   }
 }
-
 /* end massage */
 /* start clean */
 #clean {
@@ -291,9 +290,6 @@ nav .container ul li a.active {
 }
 @media (max-width: 767px) {
   #clean .all li h4 {
-    font-size: 18px;
-  }
-  #clean .all li p {
     font-size: 18px;
   }
   #clean .all li .holder {
@@ -503,18 +499,4 @@ footer .container form input:last-child:hover {
   color: white;
   background-color: black;
 }
-
 /* end footer */
-
-/* background-color: var(--secondery-color);
-    color: white;
-    padding: 4px;
-    padding-left: 81px;
-    font-size: 22px;
-    border-radius: 9px;
-    width: 50px;
-    height: 32px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    background-image: linear-gradient(to right, white -16%, #c03b2c 53%); */
